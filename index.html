@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seu Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── NAV ────────────────────────────────────────── -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">Site de <span>Pratica</span></a>
+
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#features">Funcionalidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contato" class="nav__cta">Começar →</a>
+    </div>
+  </header>
+
+  <!-- ── HERO ───────────────────────────────────────── -->
+  <section class="hero">
+    <div class="container">
+      <p class="hero__eyebrow">Sinta-se Bem-vindo</p>
+
+      <h1 class="hero__title">
+        Aqui começa<br /><span style="color: #ac8fad;">algo grande.</span>
+      </h1>
+
+      <p class="hero__subtitle">
+        <span id="typing-text">Information → Product → Payment. Simple as that.</span><span class="cursor"></span>
+      </p>
+
+      <div class="hero__actions">
+        <a href="#features" class="btn-primary">Ver funcionalidades</a>
+        <a href="#sobre" class="btn-ghost">Saiba mais</a>
+      </div>
+
+      <div class="hero__scroll">
+        <span class="hero__scroll-line"></span>
+        Role para baixo
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS ──────────────────────────────────────── -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat">
+          <div class="stat__num">3k+</div>
+          <div class="stat__label">Usuários</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">98.3%</div>
+          <div class="stat__label">Satisfação</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">2x</div>
+          <div class="stat__label">Mais rápido</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num" id="Destaque">24/7</div>
+          <div class="stat__label">Suporte</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ───────────────────────────────────── -->
+  <section class="section features" id="features">
+    <div class="container">
+      <p class="section__label">Funcionalidades</p>
+      <h2 class="section__title">Tudo que você precisa, no lugar certo.</h2>
+      <p class="section__desc">
+        Descreva aqui como o seu produto resolve o problema do usuário de forma clara e direta.
+      </p>
+
+      <div class="features__grid">
+        <div class="card">
+          <div class="card__icon">⚡</div>
+          <h3 class="card__title">Performance</h3>
+          <p class="card__body">Carregamento rápido e experiência fluida do início ao fim. Sem travamentos, sem espera.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🔒</div>
+          <h3 class="card__title">Segurança</h3>
+          <p class="card__body">Dados protegidos com criptografia de ponta. Você foca no negócio, a gente cuida do resto.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🎨</div>
+          <h3 class="card__title">Design</h3>
+          <p class="card__body">Interface pensada para ser intuitiva. Nenhum manual necessário para começar a usar.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">📊</div>
+          <h3 class="card__title">Análises</h3>
+          <p class="card__body">Relatórios em tempo real para você tomar decisões com base em dados concretos.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🔗</div>
+          <h3 class="card__title">Integrações</h3>
+          <p class="card__body">Conecta com as ferramentas que você já usa. API aberta e documentação completa.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🌐</div>
+          <h3 class="card__title">Global</h3>
+          <p class="card__body">Disponível em múltiplos idiomas e pronto para escalar para qualquer mercado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SOBRE ───────────────────────────────────────── -->
+  <section class="section" id="sobre" style="border-top: 1px solid var(--border);">
+    <div class="container">
+      <p class="section__label">Sobre</p>
+      <h2 class="section__title">Por que existimos.</h2>
+      <p class="section__desc">
+        Conte aqui a história por trás do projeto. O que motivou a criação? Qual problema real você resolve? Autenticidade conecta mais do que qualquer slogan.
+      </p>
+      <a href="#contato" class="btn-ghost" style="display:inline-block; margin-top: 2rem;">Fale conosco →</a>
+    </div>
+  </section>
+
+  <!-- ── CTA ────────────────────────────────────────── -->
+  <section class="section cta-section" id="contato" style="border-top: 1px solid var(--border);">
+    <div class="container">
+      <p class="section__label">Contato</p>
+      <h2 class="section__title">Pronto para começar?</h2>
+      <p class="section__desc">
+        Adicione aqui um formulário, link de agendamento, ou e-mail de contato.
+      </p>
+      <a href="mailto:voce@seusite.com" class="btn-primary">Enviar mensagem</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">seu<span>.</span>site</span>
+
+      <ul class="footer__links">
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Termos</a></li>
+        <li><a href="#features">Funcionalidades</a></li>
+      </ul>
+
+      <p class="footer__copy">© 2026 SeuSite. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ── Script: efeito de digitação no hero ─────────── -->
+  <script>
+    const phrases = [
+      'Informação → Produto → Pagamento. Simples assim',
+      'Basico, mas poderoso.',
+      'Seu website virando uma realidade.',
+    ];
+    const el = document.getElementById('typing-text');
+    let pi = 0, ci = 0, deleting = false;
+
+    function type() {
+      const phrase = phrases[pi];
+      if (!deleting) {
+        el.textContent = phrase.slice(0, ++ci);
+        if (ci === phrase.length) {
+          deleting = true;
+          setTimeout(type, 2200);
+          return;
+        }
+      } else {
+        el.textContent = phrase.slice(0, --ci);
+        if (ci === 0) {
+          deleting = false;
+          pi = (pi + 1) % phrases.length;
+        }
+      }
+      setTimeout(type, deleting ? 40 : 65);
+    }
+
+    type();
+  </script>
+
+</body>
+</html>
